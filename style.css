@@ -3,17 +3,25 @@ body {
     background-size: cover;
 }
 
+.message {
+    position: absolute;
+    top: 45px;
+    left: 16px;
+    color: gold;
+}
+
 .bird {
-    margin: auto;
-    height: 145px;
-    width: 155px;
-    position: fixed;
-    top: 60vh;
-    left: 6vw;
+    height: 130px;
+    width: 145px;
+    position: absolute;
+    top: 65px;
+    left: 1vw;
     z-index: 100;
 }
 
-h2 {
-    color: yellow;
-    text-align: center;
+.logo {
+    display: block;
+    margin: 0 auto;
+    height: 125px;
+    width: 400px;
 }
