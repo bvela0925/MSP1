@@ -1,0 +1,19 @@
+body {
+    background-image: url("images/background.image.jpg");
+    background-size: cover;
+}
+
+.bird {
+    margin: auto;
+    height: 145px;
+    width: 155px;
+    position: fixed;
+    top: 60vh;
+    left: 6vw;
+    z-index: 100;
+}
+
+h2 {
+    color: yellow;
+    text-align: center;
+}
