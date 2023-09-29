@@ -5,17 +5,20 @@ body {
 
 .message {
     position: absolute;
-    top: 45px;
-    left: 16px;
+    top: 400px;
+    left: 45px;
     color: gold;
+    background: white;
+	padding: 5px;
+    border-radius: 5%;
 }
 
 .bird {
     height: 130px;
     width: 145px;
     position: absolute;
-    top: 65px;
-    left: 1vw;
+    top: 285px;
+    left: 9vw;
     z-index: 100;
 }
 
