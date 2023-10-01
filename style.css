@@ -22,9 +22,23 @@ body {
     z-index: 100;
 }
 
+.lower_obstacle {
+    image: url("images/lower.obstacle.bike.jpg");
+	position: fixed;
+	
+}
+
 .logo {
     display: block;
     margin: 0 auto;
     height: 125px;
     width: 400px;
+}
+
+.points {
+    position: absolute;
+    z-index: 25;
+    color: white
+    top: 0;
+    right: 0;
 }
