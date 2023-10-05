@@ -2,22 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" type="image/png">
-        <title>Flappy Bird 2: Bird in the Big City</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="images/main.character.bird.png">
+        <title>Flappy Bird: Bird in the Big City</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
+        <script src="script.js"></script>
     </head>
 
     <body>
-        <div class="backgorund"></div>
-        <img src="images/Home.Screen.LOGO.png" alt="logo" class="logo">
-        <div class="points">
-            <span class="points_title"></span>
-            <span class="points_val"></span>
-        </div>
+        <div class="background"></div>
+        <img src="images/main.character.bird.png" alt="bird-img" class="bird" id="bird-1">
         <div class="message">
-            <h3><b>**Press spacebar to start flappin' !**</b></h3>
+            <h2><b>**Hit ENTER to start flappin' !**</b></h2>
         </div>
-        <img src="images/main.character.bird.png" alt="bird" class="bird" id="bird">
+        <div class="score">
+            <span class="score_title"></span>
+            <span class="score_val"></span>
+        </div>
     </body>
 </html>
