@@ -1,4 +1,4 @@
-let move_speed = 3, gravity = 0.2;
+let move_speed = 3, gravity = 0.25;
 let bird = document.querySelector('.bird');
 let img = document.getElementById('bird-1');
 
@@ -54,7 +54,6 @@ function play(){
                 }else{
                     if(pipe_sprite_props.right < bird_props.left && pipe_sprite_props.right + move_speed >= bird_props.left && element.increase_score == '1'){
                         score_val.innerHTML =+ score_val.innerHTML + 1;
-                        sound_point.play();
                     }
                     element.style.left = pipe_sprite_props.left - move_speed + 'px';
                 }
