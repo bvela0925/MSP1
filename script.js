@@ -5,7 +5,7 @@ let img = document.getElementById('bird-1');
 // bird properties
 let bird_props = bird.getBoundingClientRect();
 
-// return DOMReact -> top, right, bottom, left, x, y, width and height
+// return DOMReact 
 let background = document.querySelector('.background').getBoundingClientRect();
 
 let score_val = document.querySelector('.score_val');
@@ -63,6 +63,7 @@ function play(){
     }
     requestAnimationFrame(move);
 
+    // add bird-2 img when you can find png w clear background
     let bird_dy = 0;
     function apply_gravity(){
         if(game_state != 'Play') return;
