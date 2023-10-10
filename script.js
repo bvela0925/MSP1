@@ -75,6 +75,7 @@ function play(){
             }
         });
 
+        // attempted to fix bird-2 image error
         document.addEventListener('keyup', (e) => {
             if(e.key == 'ArrowUp' || e.key == ' '){
                 img.src = 'images/Bird-2.png';
